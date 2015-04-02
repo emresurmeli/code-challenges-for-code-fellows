@@ -1,7 +1,7 @@
 var http = require('http'),
+    fs = require('fs'),
     host = '127.0.0.1',
-    port = '8000',
-    fs = require('fs');
+    port = '8000';
 
 function Server (err, html) {
     if (err) {
