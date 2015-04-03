@@ -1,11 +1,11 @@
 var bookModule = (function () {
     return {
-        createBook : function (title, author, genre, iD) {
-            return bookModule[iD] = {
+        createBook : function (title, author, genre, bookNum) {
+            return bookModule[bookNum] = {
                   "title" : title,
                   "author" : author,
                   "genre" : genre,
-                  "iD" : iD   
+                  "bookNum" : bookNum   
             };
         }
     }
