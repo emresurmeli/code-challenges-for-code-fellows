@@ -5,7 +5,8 @@ var shelfModule = (function () {
     return {
         createShelf : function (shelfName) {
             return shelfModule[shelfName] = {
-                "Name" : shelfName
+                "Name" : shelfName,
+                "Storage" : [];
             };
         },
         deleteShelf : function (shelfName) {
@@ -21,3 +22,10 @@ var shelfModule = (function () {
 }) ();
 
 module.export = shelfModule;
+
+// tests:
+
+shelfModule.createShelf("shelfOne");
+shelfModule.insertBook("001", "shelfOne");
+shelfModule.removeBook("001", "shelfOne");
+shelfModule.deleteShelf("shelfOne");
