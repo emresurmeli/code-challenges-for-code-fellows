@@ -1,4 +1,4 @@
-# code-challenges-for-code-fellows
+# Code challenges for JavaScript Development Accelerator
 
 # Question 1
   Manupulate an array of objects using vanilla JS as well as using jQuery and lodash(underscore)
