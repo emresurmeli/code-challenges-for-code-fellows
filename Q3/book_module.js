@@ -5,9 +5,10 @@ var bookModule = (function () {
                   "title" : title,
                   "author" : author,
                   "genre" : genre,
-                  "bookNum" : bookNum   
-            };
-        }
+                  "bookNum" : bookNum  
+            }
+            console.log("its ready")
+        };
     }
 }) ();
 
