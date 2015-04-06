@@ -22,7 +22,7 @@ var shelfModule = (function () {
             console.log("Book with the Num " + bookNum + " has been removed from " + shelfName)
         }
     }
-}) ();
+}) (); 
 
 module.export = shelfModule;
 
