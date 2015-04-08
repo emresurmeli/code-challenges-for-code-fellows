@@ -7,7 +7,8 @@ var libraryModule = (function () {
             console.log("Shelf " + shelfName + " has been inserted into your library")
         },
         removeShelf : function (shelfName) {
-            delete libraryModule[shelfName.name];
+            delete libraryModule[shelfName.name],
+            console.log("Shelf " + shelfName + " has been removed from your library")
             }
         }
 }) ();

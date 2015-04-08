@@ -13,6 +13,3 @@ var bookModule = (function () {
 }) ();
 
 module.export = bookModule;
-
-// test:
-bookModule.createBook("The Alchemist", "Paulo Coelho", "fiction", "001");

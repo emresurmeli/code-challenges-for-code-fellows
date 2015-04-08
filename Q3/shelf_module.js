@@ -25,10 +25,3 @@ var shelfModule = (function () {
 }) (); 
 
 module.export = shelfModule;
-
-// tests:
-
-shelfModule.createShelf("shelfOne");
-shelfModule.insertBook("001", "shelfOne");
-shelfModule.removeBook("001", "shelfOne");
-shelfModule.deleteShelf("shelfOne");
