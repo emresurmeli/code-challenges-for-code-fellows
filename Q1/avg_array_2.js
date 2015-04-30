@@ -22,12 +22,12 @@ $(function(){
   showAverage = function(array){
     var total = 0;
     _.map(array, function(val, index){
-    total += array[index].awesome_index;
+      total += array[index].awesome_index;
     })
     var average = total / array.length;
     $('#awesome-index').text(average);
   }
-})
   $('#avgButton2').click(function() {
     showAverage(objArray);
-  });
+  })
+})

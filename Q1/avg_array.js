@@ -19,16 +19,16 @@ var objArray = [
 ];
 
 var getButton = document.getElementById("avgButton");
-      getButton.addEventListener("click", function() {
-        awesomeAverage(objArray);
+    getButton.addEventListener("click", function() {
+      awesomeAverage(objArray);
 });
 
 function awesomeAverage (array) {
   var total = 0;
-    for(var i = 0; i < array.length; i++) {
-      total += array[i].awesome_index;
-    }
+  for(var i = 0; i < array.length; i++) {
+    total += array[i].awesome_index;
+  }
   var average = total / array.length;
-      getAverage = document.getElementById('awesome-index');
-      getAverage.innerHTML = "<p>" + average + "</p>";
+  getAverage = document.getElementById('awesome-index');
+  getAverage.innerHTML = "<p>" + average + "</p>";
 }
