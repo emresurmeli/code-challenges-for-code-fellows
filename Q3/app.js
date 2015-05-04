@@ -5,12 +5,12 @@ var book = require("./book_module.js");
 
 // Tests:
 
-bookModule.createBook("The Alchemist", "Paulo Coelho", "fiction", "001");
+book.bookModule.createBook("The Alchemist", "Paulo Coelho", "fiction", "001");
 
-shelfModule.createShelf("shelfOne");
-shelfModule.insertBook("001", "shelfOne");
-shelfModule.removeBook("001", "shelfOne");
-shelfModule.deleteShelf("shelfOne");
+shelf.shelfModule.createShelf("shelfOne");
+shelf.shelfModule.insertBook("001", "shelfOne");
+shelf.shelfModule.removeBook("001", "shelfOne");
+shelf.shelfModule.deleteShelf("shelfOne");
 
-libraryModule.insertShelf("001");
-libraryModule.removeShelf("001");
+library.libraryModule.insertShelf("001");
+library.libraryModul.e.removeShelf("001");

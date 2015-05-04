@@ -12,4 +12,4 @@ var bookModule = (function () {
   }
 })();
 
-module.export = bookModule;
+exports.bookModule = bookModule;

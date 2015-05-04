@@ -13,4 +13,4 @@ var libraryModule = (function () {
    }
 })();
 
-module.export = libraryModule;
+exports.libraryModule = libraryModule;

@@ -23,4 +23,4 @@ var shelfModule = (function () {
   }
 })(); 
 
-module.export = shelfModule;
+exports.shelfModule = shelfModule;
